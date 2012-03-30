@@ -1,4 +1,4 @@
-﻿Build started 3/30/2012 12:31:33 PM.
+﻿Build started 3/30/2012 1:13:19 PM.
      1>Project "C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\RestThing\RestThing.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\RestThing.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -7,7 +7,9 @@
        ClCompile:
          All outputs are up-to-date.
          All outputs are up-to-date.
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D RESTTHING_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RestThing.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt RestThing.cpp /clr:nostdlib 
+         RestThing.cpp
+     1>RestThing.cpp(45): warning C4101: 'except' : unreferenced local variable
          All outputs are up-to-date.
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\Debug\RestThing.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RestThing.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\Debug\RestThing.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\dllmain.obj
@@ -25,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.17
+Time Elapsed 00:00:02.20

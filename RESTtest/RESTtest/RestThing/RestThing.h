@@ -10,5 +10,6 @@ namespace GoofTwitter
 	{
 	public:
 		static _declspec(dllexport)  void UserNameDescription();
+		//static _declspec(dllexport)  void UserNameDescription(String^);
 	};
 }
