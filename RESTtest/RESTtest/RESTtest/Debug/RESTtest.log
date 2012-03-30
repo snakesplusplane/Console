@@ -1,5 +1,5 @@
-﻿Build started 3/30/2012 8:55:15 AM.
-     1>Project "C:\Users\Me\Desktop\RESTtest\RESTtest\RESTtest\RESTtest.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/30/2012 12:31:33 PM.
+     1>Project "C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\RESTtest\RESTtest.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\RESTtest.unsuccessfulbuild" because "AlwaysCreate" was specified.
        GenerateTargetFrameworkMonikerAttribute:
@@ -8,16 +8,16 @@
          All outputs are up-to-date.
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Me\Desktop\RESTtest\RESTtest\Debug\RESTtest.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug RestThing.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RESTtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Me\Desktop\RESTtest\RESTtest\Debug\RESTtest.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\Debug\RESTtest.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug RestThing.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RESTtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\Debug\RESTtest.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
          "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         RESTtest.vcxproj -> C:\Users\Me\Desktop\RESTtest\RESTtest\Debug\RESTtest.exe
+         RESTtest.vcxproj -> C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\Debug\RESTtest.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Me\Desktop\RESTtest\RESTtest\Debug\RESTtest.exe;#1" /manifest Debug\RESTtest.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\Debug\RESTtest.exe;#1" /manifest Debug\RESTtest.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Debug\RESTtest.unsuccessfulbuild".
          Touching "Debug\RESTtest.lastbuildstate".
-     1>Done Building Project "C:\Users\Me\Desktop\RESTtest\RESTtest\RESTtest\RESTtest.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\matthew.gutermuth\Desktop\consoleTest\Console\RESTtest\RESTtest\RESTtest\RESTtest.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.92
+Time Elapsed 00:00:01.28

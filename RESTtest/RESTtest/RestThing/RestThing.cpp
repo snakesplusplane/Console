@@ -21,7 +21,7 @@ namespace GoofTwitter
 	void  myGoofTwitter::UserNameDescription()
 	{
 		string usr;
-		cout << "enter a name" << endl;
+		cout << "Enter Twitter Username: ";
 		getline(cin,usr);
 		String^ username = gcnew String(usr.c_str());
 		Stream^ myStream;
@@ -49,6 +49,10 @@ namespace GoofTwitter
 		String^ result;
 		XmlReader^ reader = XmlReader::Create(gcnew StringReader(resString));
 
+		if (reader->ReadToFollowing("text"))
+		{
+			output->AppendLine(reader->ReadElementContentAsString());
+		}
 		if(reader->ReadToFollowing("name"))
 			output->AppendLine(reader->ReadElementContentAsString());
 
@@ -56,6 +60,7 @@ namespace GoofTwitter
 		{
 			output->AppendLine(reader->ReadElementContentAsString());
 		}
+
 		result = output->ToString();
 		Console::Write(result);
 		HttpReq->Close();
