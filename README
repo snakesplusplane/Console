@@ -1,0 +1,2 @@
+To use the DLL. include it in your project, and then call myGoofTwitter::UserNameDescription();
+This will ask user for a twitter username, then retrieve their information if they exist. If they dont, it'll say 404 not found.
