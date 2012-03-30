@@ -3,6 +3,7 @@
 #include <iostream>
 #include <stdlib.h>
 #using "System.Xml.dll"
+#include <string>
 
 namespace GoofTwitter
 {
@@ -10,6 +11,6 @@ namespace GoofTwitter
 	{
 	public:
 		static _declspec(dllexport)  void UserNameDescription();
-		//static _declspec(dllexport)  void UserNameDescription(String^);
+		static _declspec(dllexport)  void UserNameDescription(std::string);
 	};
 }

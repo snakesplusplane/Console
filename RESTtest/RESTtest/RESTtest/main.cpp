@@ -25,18 +25,17 @@ int main(array<System::String ^> ^args)
 {
 	
 
-		//	string usr;
-		//cout << "Enter Twitter Username: ";
+			string userName;
+		cout << "Enter Twitter Username: ";
 
-		//getline(cin,usr);
-		//String^ username = gcnew String(usr.c_str());
+		getline(cin,userName);
 	
-		//GoofTwitter::myGoofTwitter::UserNameDescription(username);
+		GoofTwitter::myGoofTwitter::UserNameDescription(userName);
 
 
 	//System::Net::HttpWebRequest^ myRequest = dynamic_cast<HttpWebRequest^>(WebRequest::Create( "http://graphical.weather.gov/xml/sample_products/browser_interface/ndfdXMLclient.php?whichClient=NDFDgen&lat=38.99&lon=-77.01&listLatLon=&lat1=&lon1=&lat2=&lon2=&resolutionSub=&listLat1=&listLon1=&listLat2=&listLon2=&resolutionList=&endPoint1Lat=&endPoint1Lon=&endPoint2Lat=&endPoint2Lon=&listEndPoint1Lat=&listEndPoint1Lon=&listEndPoint2Lat=&listEndPoint2Lon=&zipCodeList=&listZipCodeList=&centerPointLat=&centerPointLon=&distanceLat=&distanceLon=&resolutionSquare=&listCenterPointLat=&listCenterPointLon=&listDistanceLat=&listDistanceLon=&listResolutionSquare=&citiesLevel=&listCitiesLevel=&sector=&gmlListLatLon=&featureType=&requestedTime=&startTime=&endTime=&compType=&propertyName=&product=time-series&begin=2004-01-01T00%3A00%3A00&end=2016-01-20T00%3A00%3A00&Unit=e&maxt=maxt&Submit=Submit" ));
 	//System::Net::WebResponse^ myResponse = myRequest->GetResponse();
-	GoofTwitter::myGoofTwitter::UserNameDescription();
+	//GoofTwitter::myGoofTwitter::UserNameDescription();
 	cin.get();
 
 	return 0;
